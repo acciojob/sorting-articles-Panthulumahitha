@@ -1,18 +1,26 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
-    line-height: 1.6;
+    background: url('background-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 20px;
+    color: #333;
 }
 
 h1 {
     text-align: center;
+    color: #222;
 }
 
 ul {
-    list-style-type: none;
-    padding: 0;
+    list-style: square;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
 }
 
 li {
-    margin: 5px 0;
+    margin: 8px 0;
 }
