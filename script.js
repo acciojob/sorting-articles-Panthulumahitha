@@ -32,4 +32,3 @@ sortedBands.forEach(band => {
     li.textContent = band;
     bandList.appendChild(li);
 });
-
